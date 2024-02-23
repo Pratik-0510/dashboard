@@ -1,0 +1,55 @@
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  .form-group input,
+.form-group textarea {
+  width: 100%; /* Set the width to 100% to make the input boxes span the entire width of their container */
+  padding: 8px; /* Add padding for better spacing */
+  margin-bottom: 10px; /* Add margin to create space between input boxes */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+  
+  .form-input {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
